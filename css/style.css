@@ -38,3 +38,298 @@
     top: 50%;
     z-index: 1;
 }
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .first.block .colored:first-child,
+    .first.block .colored:nth-child(3) {
+        float: left;
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .first.block .colored:nth-child(2),
+    .first.block .colored:nth-child(4) {
+        float: right;
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .second.block .colored:first-child,
+    .second.block .colored:nth-child(3) {
+        float: left;
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .third.block .colored {
+        width: 100%
+    }
+
+    .fourth.block .colored {
+        width: 100%
+    }
+
+    .fifth.block .colored {
+        width: 100%
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+    .first.block .colored:first-child,
+    .first.block .colored:nth-child(3) {
+        float: left;
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .first.block .colored:nth-child(2),
+    .first.block .colored:nth-child(4) {
+        float: right;
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .second.block .colored:first-child,
+    .second.block .colored:nth-child(3) {
+        float: left;
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .third.block .colored {
+        width: 100%
+    }
+
+    .fourth.block .colored:first-child {
+        float: left;
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .fourth.block .colored:nth-child(2) {
+        float: right;
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .fourth.block .colored:nth-child(3) {
+        width: 100%;
+        clear: both;
+    }
+
+    .fifth.block .colored:first-child,
+    .fifth.block .colored:nth-child(3) {
+        float: left;
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .fifth.block .colored:nth-child(2),
+    .fifth.block .colored:nth-child(4) {
+        float: right;
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .fifth.block .colored:nth-child(5) {
+        clear: both;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 961px) and (max-width: 1200px) {
+    .first.block .colored:first-child,
+    .first.block .colored:nth-child(3) {
+        float: left;
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .first.block .colored:nth-child(2),
+    .first.block .colored:nth-child(4) {
+        float: right;
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .second.block .colored:first-child,
+    .second.block .colored:nth-child(3) {
+        float: left;
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .third.block .colored {
+        float: left;
+        width: 33%;
+        box-sizing: border-box;
+    }
+
+    .fourth.block .colored:first-child,
+    .fourth.block .colored:nth-child(3) {
+        float: left;
+        width: 35%;
+        box-sizing: border-box;
+    }
+
+    .fourth.block .colored:nth-child(2) {
+        float: left;
+        width: 30%;
+        box-sizing: border-box;
+    }
+
+
+    .fifth.block .colored:first-child,
+    .fifth.block .colored:nth-child(3) {
+        float: left;
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .fifth.block .colored:nth-child(2),
+    .fifth.block .colored:nth-child(4) {
+        float: right;
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .fifth.block .colored:nth-child(5) {
+        clear: both;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .first.block .colored:first-child,
+    .first.block .colored:nth-child(3) {
+        float: left;
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .first.block .colored:nth-child(2),
+    .first.block .colored:nth-child(4) {
+        float: right;
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .second.block .colored:first-child,
+    .second.block .colored:nth-child(3) {
+        float: left;
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .third.block .colored:first-child {
+        float: left;
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .third.block .colored:nth-child(2) {
+        float: right;
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .third.block .colored:nth-child(3) {
+        clear: both;
+        width: 100%;
+    }
+
+    .fourth.block .colored:first-child,
+    .fourth.block .colored:nth-child(3) {
+        float: left;
+        width: 35%;
+        box-sizing: border-box;
+    }
+
+    .fourth.block .colored:nth-child(2) {
+        float: left;
+        width: 30%;
+        box-sizing: border-box;
+    }
+
+    .fifth.block .colored:first-child,
+    .fifth.block .colored:nth-child(2),
+    .fifth.block .colored:nth-child(3) {
+        float: left;
+        width: 33%;
+        box-sizing: border-box;
+    }
+
+    .fifth.block {
+        text-align: center;
+    }
+
+    .fifth.block .colored:nth-child(4) {
+        clear: both;
+        margin-right: -5px;
+    }
+    .fifth.block .colored:nth-child(4),
+    .fifth.block .colored:nth-child(5){
+        display: inline-block;
+        width: 33%;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (min-width: 1801px){
+    .first.block .colored:first-child,
+    .first.block .colored:nth-child(3) {
+        float: left;
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .first.block .colored:nth-child(2),
+    .first.block .colored:nth-child(4) {
+        float: right;
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .second.block .colored:first-child,
+    .second.block .colored:nth-child(3) {
+        float: left;
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .third.block .colored:first-child {
+        float: left;
+        width: 50%;
+        box-sizing: border-box;
+    }
+    
+    .third.block .colored:nth-child(2) {
+        float: right;
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .third.block .colored:nth-child(3) {
+        clear: both;
+        width: 100%;
+    }
+
+    .fourth.block .colored:first-child,
+    .fourth.block .colored:nth-child(3) {
+        float: left;
+        width: 35%;
+        box-sizing: border-box;
+    }
+
+    .fourth.block .colored:nth-child(2) {
+        float: left;
+        width: 30%;
+        box-sizing: border-box;
+    }
+
+    .fifth.block .colored {
+        float: left;
+        width: 20%;
+        box-sizing: border-box;
+    }
+}
