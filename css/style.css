@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .block {
     margin-bottom: 10px;
 }
@@ -44,21 +48,18 @@
     .first.block .colored:nth-child(3) {
         float: left;
         width: 50%;
-        box-sizing: border-box;
     }
 
     .first.block .colored:nth-child(2),
     .first.block .colored:nth-child(4) {
         float: right;
         width: 50%;
-        box-sizing: border-box;
     }
 
     .second.block .colored:first-child,
     .second.block .colored:nth-child(3) {
         float: left;
         width: 50%;
-        box-sizing: border-box;
     }
 
     .third.block .colored {
@@ -79,21 +80,18 @@
     .first.block .colored:nth-child(3) {
         float: left;
         width: 50%;
-        box-sizing: border-box;
     }
 
     .first.block .colored:nth-child(2),
     .first.block .colored:nth-child(4) {
         float: right;
         width: 50%;
-        box-sizing: border-box;
     }
 
     .second.block .colored:first-child,
     .second.block .colored:nth-child(3) {
         float: left;
         width: 50%;
-        box-sizing: border-box;
     }
 
     .third.block .colored {
@@ -103,13 +101,11 @@
     .fourth.block .colored:first-child {
         float: left;
         width: 50%;
-        box-sizing: border-box;
     }
 
     .fourth.block .colored:nth-child(2) {
         float: right;
         width: 50%;
-        box-sizing: border-box;
     }
 
     .fourth.block .colored:nth-child(3) {
@@ -121,14 +117,12 @@
     .fifth.block .colored:nth-child(3) {
         float: left;
         width: 50%;
-        box-sizing: border-box;
     }
 
     .fifth.block .colored:nth-child(2),
     .fifth.block .colored:nth-child(4) {
         float: right;
         width: 50%;
-        box-sizing: border-box;
     }
 
     .fifth.block .colored:nth-child(5) {
@@ -142,40 +136,34 @@
     .first.block .colored:nth-child(3) {
         float: left;
         width: 50%;
-        box-sizing: border-box;
     }
 
     .first.block .colored:nth-child(2),
     .first.block .colored:nth-child(4) {
         float: right;
         width: 50%;
-        box-sizing: border-box;
     }
 
     .second.block .colored:first-child,
     .second.block .colored:nth-child(3) {
         float: left;
         width: 50%;
-        box-sizing: border-box;
     }
 
     .third.block .colored {
         float: left;
         width: 33%;
-        box-sizing: border-box;
     }
 
     .fourth.block .colored:first-child,
     .fourth.block .colored:nth-child(3) {
         float: left;
         width: 35%;
-        box-sizing: border-box;
     }
 
     .fourth.block .colored:nth-child(2) {
         float: left;
         width: 30%;
-        box-sizing: border-box;
     }
 
 
@@ -183,14 +171,12 @@
     .fifth.block .colored:nth-child(3) {
         float: left;
         width: 50%;
-        box-sizing: border-box;
     }
 
     .fifth.block .colored:nth-child(2),
     .fifth.block .colored:nth-child(4) {
         float: right;
         width: 50%;
-        box-sizing: border-box;
     }
 
     .fifth.block .colored:nth-child(5) {
@@ -204,33 +190,28 @@
     .first.block .colored:nth-child(3) {
         float: left;
         width: 50%;
-        box-sizing: border-box;
     }
 
     .first.block .colored:nth-child(2),
     .first.block .colored:nth-child(4) {
         float: right;
         width: 50%;
-        box-sizing: border-box;
     }
 
     .second.block .colored:first-child,
     .second.block .colored:nth-child(3) {
         float: left;
         width: 50%;
-        box-sizing: border-box;
     }
 
     .third.block .colored:first-child {
         float: left;
         width: 50%;
-        box-sizing: border-box;
     }
 
     .third.block .colored:nth-child(2) {
         float: right;
         width: 50%;
-        box-sizing: border-box;
     }
 
     .third.block .colored:nth-child(3) {
@@ -242,13 +223,11 @@
     .fourth.block .colored:nth-child(3) {
         float: left;
         width: 35%;
-        box-sizing: border-box;
     }
 
     .fourth.block .colored:nth-child(2) {
         float: left;
         width: 30%;
-        box-sizing: border-box;
     }
 
     .fifth.block .colored:first-child,
@@ -256,7 +235,6 @@
     .fifth.block .colored:nth-child(3) {
         float: left;
         width: 33%;
-        box-sizing: border-box;
     }
 
     .fifth.block {
@@ -271,65 +249,45 @@
     .fifth.block .colored:nth-child(5){
         display: inline-block;
         width: 33%;
-        box-sizing: border-box;
     }
 }
 
 @media screen and (min-width: 1801px){
-    .first.block .colored:first-child,
-    .first.block .colored:nth-child(3) {
+    .first.block .colored {
         float: left;
-        width: 50%;
-        box-sizing: border-box;
-    }
-
-    .first.block .colored:nth-child(2),
-    .first.block .colored:nth-child(4) {
-        float: right;
-        width: 50%;
-        box-sizing: border-box;
+        width: 25%;
     }
 
     .second.block .colored:first-child,
-    .second.block .colored:nth-child(3) {
+    .second.block .colored:nth-child(2) {
         float: left;
         width: 50%;
-        box-sizing: border-box;
     }
 
     .third.block .colored:first-child {
         float: left;
         width: 50%;
-        box-sizing: border-box;
-    }
-    
-    .third.block .colored:nth-child(2) {
-        float: right;
-        width: 50%;
-        box-sizing: border-box;
     }
 
-    .third.block .colored:nth-child(3) {
-        clear: both;
-        width: 100%;
+    .third.block .colored:nth-child(2),
+    .third.block .colored:nth-child(3){
+        float: left;
+        width: 25%;
     }
 
     .fourth.block .colored:first-child,
-    .fourth.block .colored:nth-child(3) {
-        float: left;
-        width: 35%;
-        box-sizing: border-box;
-    }
-
     .fourth.block .colored:nth-child(2) {
         float: left;
-        width: 30%;
-        box-sizing: border-box;
+        width: 25%;
+    }
+
+    .fourth.block .colored:nth-child(3) {
+        float: left;
+        width: 50%;
     }
 
     .fifth.block .colored {
         float: left;
         width: 20%;
-        box-sizing: border-box;
     }
 }
